@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/429dd28436.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+    <nav>
+      <img class="logo"  src="logo4.jpg" alt="logo">
+      <ul id="sideMenu">
+        <li><a href="#header"> Home </a></li>
+        <li><a href="#about"> About </a></li>
+        <li><a href="#services"> Services </a></li>
+        <li><a href="#portfolio"> portfolio </a></li>
+        <li><a href="#contact"> Contact </a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+
+    <div class="header-text">
+      <p> Full-Stack Developer</p>
+      <h1>Hii, I'm<span style="color: #ff004f;"> Priyanshu</span> <br> Verma From <br><span style="color: greenyellow;">India</span> </h1>
+    </div>
+  </div>
+  </div>
+  <!-- ----------------about------------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="user.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>As a computer science engineering student, I have a deep passion for the technology that powers the world around us. Through my coursework and hands-on experience with programming languages like C,C++, python, javascript and core java programming, I have developed a strong foundation in computer science theory and practical application.
+
+            In addition to my technical skills, I am a highly motivated and collaborative individual with strong communication and teamwork abilities. Whether working on a group project or tackling an individual coding challenge, I am always eager to learn and grow as a software developer.</p>
+
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('Skills')"> Skills </p>
+              <p class="tab-links" onclick="opentab('Experience')"> Experiences </p>
+              <p class="tab-links" onclick="opentab('Education')"> Education </p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>Data Analysis</span><br> Excel.NumPy.Pandas.SciPy.Matplotlib</li>
+                <li><span>Full Stack Web developement</span><br>HTML.CSS.Java script.Django</li>
+                <li><span>Data Base management</span><br>MySQL.Mongodb.</li>
+                <li><span>Programming and DSA</span><br>C/C++.JAVA.Python.Java script</li>
+                <li><span>Soft Skills</span><br>Problem solving.Team work.Time Management.Knowledge Sharing.Technical Discussion</li>
+                <li><span>Version Control and Operating System</span><br>LinuxUb.Git BASH.GitHub</li>
+                <li><span>Blogging</span><br>Content Writting.SEO.Google Analytics</li>
+              </ul>
+            </div>
+            <!-- --------experince---------- -->
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>Data Science intern @ CodSoft</span><br> Excel.NumPy.Pandas.SciPy.Matplotlib</li>
+                <li><span>Full Stack Web developement intern @ A.N.D intern</span><br>HTML.CSS.Java script.Django</li>
+                <li><span>Python developement Intern @ CodSoft</span><br>Python.Data Structure and Algorithm</li>
+                <li><span>Founder and Blogger @ Technomintstudy</span><br>Content Writting.SEO.Google Analytics</li>
+                <li><span>Java Developer Intern @ Oasis Infobyte</span><br>JAVA Programming.Data structure and algorithm</li>
+              </ul>
+            </div>
+            <!-- ----------Education------------- -->
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>Vidya Vihar institute of Technology</span><br>B.Tech in computer Science (2021 - 2025)</li>
+                <li><span>Purnea College, Purnea</span><br>12th with PCMB (2019 - 2021)</li>
+                <li><span>St. peter's School, Purnea</span><br>High school(2007 - 2019)</li>
+                <li><span>Wizard Tech computer Academy</span><br>Advance Diploma in Computer Application</li>
+                
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------services-------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Full-Stack web developement</h2>
+          <p>Embark on a digital adventure with my full-stack web development services! I am not just a developer; I am a creative architect, sculpting stunning user interfaces, and seamlessly weaving powerful functionalities behind the scenes. From captivating designs to robust backend systems, I transform your ideas into a harmonious online experience. Let's redefine your digital presence with a touch of creativity and a dash of technical excellence!</p>
+          <a href="https://github.com/priyanshuverma2401/web-developement-projects.git"> learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-magnifying-glass-chart"></i>
+          <h2>Data Analyst</h2>
+          <p>As a dedicated data analyst, I leverage my expertise to transform raw data into actionable insights, empowering clients to make informed decisions. With a passion for uncovering patterns and trends, I employ advanced analytical tools and methodologies to extract valuable information. My commitment to delivering accurate and meaningful results ensures that clients gain a competitive edge in their strategic endeavors. Let me bring your data to life and guide you towards data-driven success.</p>
+          <a href="https://github.com/priyanshuverma2401/data-science-journey.git"> learn More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-python"></i>
+          <h2>Python developer</h2>
+          <p>Passionate Python developer with a flair for crafting robust and scalable solutions. Armed with a deep understanding of Python's versatility, I specialize in delivering tailor-made applications and automation tools that elevate business efficiency. My commitment to clean code, attention to detail, and a keen eye for optimization ensures that every project reflects both my expertise and dedication to empowering clients through the power of Python development.</p>
+          <a href="https://github.com/priyanshuverma2401/Codsoft-internship-.git"> learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-feather-pointed"></i>
+          <h2>Content Writting and SEO</h2>
+          <p>Passionate about the power of words and the art of SEO, I specialize in crafting compelling content that not only engages but also elevates your brand's online presence. With a keen understanding of search engine optimization, I ensure that every piece of content not only resonates with your audience but also climbs the ranks in search results. Let me transform your ideas into captivating blogs and optimize your digital footprint to drive success in the online realm.</p>
+          <a href="https://technomintstudy.blogspot.com/"> learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------------sample work---------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My portfolio</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="technomintstudy.png" alt="blog">
+          <div class="layer">
+            <h3>Personal blog</h3>
+            <p>your go-to destination for insightful articles on cutting-edge technology and programming</p>
+            <a href="https://technomintstudy.blogspot.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="data science.webp" alt="blog">
+          <div class="layer">
+            <h3>data Analysis</h3>
+            <p>Unlocking insights from data's vast landscape, I specialize in the dynamic realm of data science. Transforming raw information into actionable intelligence, my expertise lies in leveraging analytics and algorithms to drive informed decision-making and innovation </p>
+            <a href="https://www.linkedin.com/in/priyanshu-kumar-verma-260ab3201/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work google analytics.png" alt="blog">
+          <div class="layer">
+            <h3>SEO and google Analytics</h3>
+            <p>Mastering the art of SEO, I navigate the digital landscape to enhance online visibility and drive organic growth. Additionally, proficient in Google Data Analytics, I leverage insights to make data-driven decisions, ensuring strategic optimization for online success.</p>
+            <a href="https://www.linkedin.com/in/priyanshu-kumar-verma-260ab3201/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>  
+      </div>
+          <a href="https://www.linkedin.com/in/priyanshu-kumar-verma-260ab3201/" class="btn"> See More</a>
+    </div>
+  </div>
+  <!-- -------------------PortFolio------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">Licenses <i class="fa-brands fa-d-and-d"></i> Certifications</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="technomintstudy.png" alt="blog">
+          <div class="layer">
+            <h3>Personal blog</h3>
+            <p>your go-to destination for insightful articles on cutting-edge technology and programming</p>
+            <a href="https://technomintstudy.blogspot.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="python developement.jpeg" alt="blog">
+          <div class="layer">
+            <h3>Python development</h3>
+            <p> </p>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7146371100216659969/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="softSkills.jpeg" alt="blog">
+          <div class="layer">
+            <h3>TCS iON : Young edge professional</h3>
+            <p></p>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7060827805642539008/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="nptel.jpeg" alt="blog">
+          <div class="layer">
+            <h3>Operating System</h3>
+            <p></p>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7131231079948058624/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="c plus plus.jpeg" alt="blog">
+          <div class="layer">
+            <h3>C/C++ internship Training</h3>
+            <p></p>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7032923448070840320/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="diploma.jpeg" alt="blog">
+          <div class="layer">
+            <h3>Advance diploma in computer application</h3>
+            <p></p>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:6908374417345249280/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="internshala.jpeg" alt="blog">
+          <div class="layer">
+            <h3>Resume Building and interview</h3>
+            <p></p>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7040183517372162048/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="graphics.jpeg" alt="blog">
+          <div class="layer">
+            <h3>Visual graphics in C</h3>
+            <p></p>
+            <a href="https://www.linkedin.com/in/priyanshu-kumar-verma-260ab3201/recent-activity/images/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------contact------------------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>priyanshukumarv984@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone-flip"></i>+91-8935844097</p>
+          <div class="social-icon">
+            <a href="https://www.facebook.com/profile.php?id=100063144125141"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/genuinepriyanshu"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://twitter.com/genuinpriyanshu"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="https://github.com/priyanshuverma2401"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/priyanshu-kumar-verma-260ab3201/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="Resume-Priyanshu-kumar-verma (3).pdf" class="btn btn2"> Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name = "Name" placeholder="Your Name" required>
+            <input type="email" name = "email" placeholder="Your email" required>
+            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2"> submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright <i class="fa-solid fa-copyright"></i> Priyanshu. Made with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+  <script src="app2.js"></script>
+  <!-- <form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form> -->
+<!--   
+  <form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form> -->
+  
+  <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbydXDu4jOmqooP1__RTa856TEseYC0i_uyBMcvMwU1JLWoKr06t8R6KGyTMo4jhZdzi/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent Successfully";
+          setTimeout(()=>{
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
